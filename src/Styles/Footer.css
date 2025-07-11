@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #2c003e, #000018);
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-top: 2px solid #ffffff33;
+}
+.footer-heading {
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  color: purple;
+}
+.footer-divider {
+  width: 60%;
+  height: 1px;
+  background-color: #ffffff33;
+  margin: 10px auto 10px auto;
+  border: none;
+}
+
+.icon-row-horizontal {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;
+  gap: 50px;                 /* space between icons */
+}
+
+.footer-icon img {
+  width: 24px;              /* increase size */
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.footer-icon img:hover {
+  transform: scale(1.2);     /* zoom effect on hover */
+}
