@@ -1,7 +1,6 @@
 import React from "react";
 import ContactForm from "../Components/Contactform.jsx";
 import "../Styles/Contact.css";
-import Footer from "../Components/Footer";
 
 
 const Contact = () => {
