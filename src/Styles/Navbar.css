@@ -35,7 +35,12 @@
   color: white;
   cursor: pointer;
   font-size: 20px;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-links button:hover {
+  border-bottom: 2px solid white;
 }
 
 /* Hamburger menu */
@@ -70,7 +75,7 @@
 @media screen and (max-width: 768px) {
   
  .navbar {
-    padding-left: 10px;
+    padding-left: 18px;
     padding-right: 28px;
   }
   .navbar-links {
@@ -86,7 +91,7 @@
   }
 
   .navbar-logo h1 {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   .navbar-links button {
@@ -96,7 +101,7 @@
 
 @media screen and (max-width: 480px) {
   .navbar-logo h1 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .navbar-links button {

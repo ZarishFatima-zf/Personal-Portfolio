@@ -88,7 +88,7 @@ const ContactForm = () => {
 
           <div className="button-container">
              <Button
-              text={isSubmitting ? "Submitting..." : "Sumbit"}
+              text={isSubmitting ? "Submitting" : "Sumbit"}
               width="10rem"
               height="3rem"
               onClick={handleSubmit} 
