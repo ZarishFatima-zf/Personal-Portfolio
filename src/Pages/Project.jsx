@@ -5,36 +5,47 @@ import PhotoPortfolio from "../Images/PhotoPortfolio.png";
 import Weather from "../Images/Weather.png";
 import StudyBoard from "../Images/StudyBoard.png";
 import Todolist from "../Images/Todolist.jpg";
+import Calculator from "../Images/Calculator.png"
+import GroceryList from "../Images/GroceryList.png"
+
 
 const projects = [
 
+{
+  name: "Grocery List",
+  image: GroceryList,
+  link: "https://grocerylist-zf.netlify.app/",
+  description: "A grocery list website made with HTML, CSS, and JavaScript.",
+},
+  {
+  name: "Calculator",
+  image: Calculator,
+  link: "https://calculator-zf.netlify.app/",
+  description: "A simple calculator built using HTML, CSS, and JavaScript by Zarish Fatima.",
+},
   {
     name: "Photo Portfolio",
     image: PhotoPortfolio,
     link: "https://photo-portfolio-zf.netlify.app/",
     description: "A photography portfolio showcasing personal images.",
-    github: "https://github.com/ZarishFatima-zf",
   },
   {
     name: "Weather Forecast",
     image: Weather,
     link: "https://weatherforecast-zf.netlify.app/",
     description: "Weather app showing live forecasts via API.",
-    github: "https://github.com/ZarishFatima-zf",
   },
   {
     name: "Study Board",
     image: StudyBoard ,
     link: "https://studyboard-zf.netlify.app/",
     description: "Study material manager using React & Tailwind CSS.",
-    github: "https://github.com/ZarishFatima-zf",
   },
   {
     name: "To-Do List App",
     image: Todolist,
     link: "https://github.com/ZarishFatima-zf/ToDoListApp",
     description: "A React Native app to manage tasks on mobile.",
-    github: "https://github.com/ZarishFatima-zf/ToDoListApp",
   },
 
 ];
