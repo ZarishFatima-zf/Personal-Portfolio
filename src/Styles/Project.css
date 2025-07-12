@@ -11,6 +11,7 @@
   font-weight: 800;
   color: white;
   margin-top: 40px;
+  margin-bottom: -40px;
   text-align: center;
   letter-spacing: 2px;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
@@ -22,6 +23,7 @@
   background: linear-gradient(to top, #1c0128, #183552, #183552, #1c0128);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
+  margin-bottom: 10px;
   width: 100%;
   max-width: 1200px;
   text-align: center;
@@ -59,7 +61,7 @@
 }
 
 .left-arrow, .right-arrow {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 
 .card-grid {
@@ -116,7 +118,7 @@
 .project-button {
   display: flex;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 7px;
   animation: fadeIn 2.5s ease-out;
 }
 
@@ -129,7 +131,7 @@
 @media (max-width: 768px) {
   .project-heading {
     font-size: 42px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: -10px;
   }
 
@@ -141,19 +143,27 @@
   .card-grid {
     grid-template-columns: 1fr;
     justify-items: center;
-    padding: 20px;
+    padding: 10px;
   }
 
- .left-arrow,
+ .left-arrow
   .right-arrow {
     margin: 10px 0;
+  
   }
+
+  .project-card {
+    width: 110%;
+    height: auto;
+    padding: 15px;
+  }
+
 }
 /* Phones and smaller screens */
 @media (max-width: 480px) {
   .project-heading {
     font-size: 32px;
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   .card-grid {
